@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html",
+    "build": "rm-rf dist && npx parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
